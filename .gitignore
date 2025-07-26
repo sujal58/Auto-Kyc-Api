@@ -1,0 +1,9 @@
+extractedImg/
+venv/
+*.png
+*.jpeg
+*.jpg
+*.wepg
+__pycache__/
+**/__pycache__/
+*.pyc
