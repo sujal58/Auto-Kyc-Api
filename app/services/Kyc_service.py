@@ -70,11 +70,6 @@ def perform_kyc_verification(document_front_path: str, document_back_path: str, 
         kyc_score=image_status["distance"],
         confidence=confidence
     )
-
-    # if image_status["verified"] and document_text_status == 1:
-    #     return {"status": "✅ Kyc verified ✅"}
-    # else:
-    #     return {"status": "Fake document detected"}
     
 
 def calculate_confidence(distance: float, threshold = 0.68) -> float:

@@ -32,9 +32,9 @@ def compareImg(first_img, second_img):
             cv2.imwrite(temp_filename, face_bgr)
 
         print("Temp file exists?: ", os.path.exists(temp_filename))
-        cv2.imshow("temp file", cv2.imread(temp_filename))
-        cv2.waitKey(0)
-        cv2.destroyAllWindows()
+        # cv2.imshow("temp file", cv2.imread(temp_filename))
+        # cv2.waitKey(0)
+        # cv2.destroyAllWindows()
 
         try:
             # Perform face comparison using processor mtcnn or 'retinaface'

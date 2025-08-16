@@ -14,7 +14,7 @@ def textExtract(documentPath, user_info):
     # remove extra spaces/newlines
     text = ' '.join(text.split())  
 
-    print(text)
+    # print(text)
 
     # Check conditions
     checks = {
